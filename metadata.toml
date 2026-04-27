@@ -1,0 +1,11 @@
+version = "v2"
+
+description  = "Single Terraform component that intentionally fails on apply, used to demonstrate component-level max_auto_retries"
+display_name = "Auto-retry demo"
+readme       = "./README.md"
+
+[onboarding]
+enabled        = false
+category       = "architecture"
+difficulty     = "simple"
+cloud_provider = "aws"

@@ -1,0 +1,10 @@
+#:schema https://api.nuon.co/v1/general/config-schema?type=terraform_module
+name              = "always_fail"
+type              = "terraform_module"
+terraform_version = "1.11.4"
+max_auto_retries  = 3
+
+[public_repo]
+repo      = "matt-zach-s/nuon-auto-retry-demo"
+directory = "src/components/always_fail"
+branch    = "main"
